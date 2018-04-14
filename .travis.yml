@@ -1,6 +1,4 @@
 language: java
-jdk: 
-  - openjdk9
 before_script:
   - chmod +x gradlew
 script:

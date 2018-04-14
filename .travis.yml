@@ -1,7 +1,5 @@
 language: java
-before_script:
-  - chmod +x gradlew
 script:
   - ./gradlew resolveDependencies
   - ./gradlew check
-
+  - ./gradlew test
